@@ -1,6 +1,8 @@
 package greet
 
-import ("fmt")
+import (
+	"fmt"
+)
 
 func Greeter(name string) {
 	fmt.Printf("Hello %v", name)

@@ -1,6 +1,8 @@
 package greet
 
-import ("testing")
+import (
+	"testing"
+)
 
 func TestGreeter(t *testing.T) {
 	Greeter("Jim")
